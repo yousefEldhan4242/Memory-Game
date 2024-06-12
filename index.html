@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="timer-bar-container">
+        <span class="timer-container">
+            Timer: <span class="timer">
+                <span class="min"></span>:
+                <span class="sec"></span>
+            </span>
+        </span>
+        <span class="reset">Play Again</span>
+    </div>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span></span>
+        </div>
+    </div>
+    <div class="blocks-container">
+    </div>
+    <audio id="fail" src="audios/error-5-199276.mp3" preload="auto"></audio>
+    <audio id="success" src="audios/short-success-sound-glockenspiel-treasure-video-game-6346.mp3" preload="auto"></audio>
+    <!-- <audio id="win" src="audios/success-fanfare-trumpets-6185.mp3" preload="auto" loop></audio> -->
+    <audio id="win" src="audios/success-fanfare-trumpets-6185.mp3" preload="auto"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>

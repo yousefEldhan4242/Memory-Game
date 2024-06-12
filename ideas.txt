@@ -1,0 +1,7 @@
+ - put music that plays when the user enter his name
+ - put a timer that ends the game and reset the game
+
+
+ - create a leader board using local storage store the useName and the tries
+ - put a getScore function that gets the score of the player and store it in localStorage (use it in win phase)
+ - craete an object that cotains all the blocks and generates all the blocks dynamically
